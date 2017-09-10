@@ -16,7 +16,7 @@
 
 ### 项目截图
 * 登录界面			
-![](docs/img/0.png)
+![](docs/img/0.PNG)
 * 首页			
 ![](docs/img/1.png)
 ![](docs/img/3.png)
