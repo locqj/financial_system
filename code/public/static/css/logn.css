@@ -1,0 +1,106 @@
+body{
+  background-image: url(../images/logn.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.loginTd button,.loginTd button:visited{
+  background-color: #6fa7e8;
+  width: 300px;
+}
+.mydiv {
+    width: 800px;
+    height: 400px;
+    border: #909090 0px solid;
+    background: gray;
+    color: #333;
+    filter: progid: DXImageTransform.Microsoft.Shadow(color=#909090, direction=120, strength=3);
+    /*ie*/
+    -webkit-box-shadow: 2px 2px 10px #909090;
+    /*safari或chrome*/
+   background-color: white;
+   margin: 0 auto;
+   margin-top: 120px;
+}
+
+.div_left
+{
+	width: 450px;
+	height: 400px;
+	float: left;
+	text-align: center;
+}
+
+.div_right
+{
+	width: 350px;
+	height: 400px;
+	background-image: url(../images/1.png);
+  background-size:cover;
+	float: left;
+
+}
+
+.loginTd{
+  height: 100px;
+  width: 350px;
+  font-size: 24px;
+  color: gray;
+}
+.logintd{
+  height: 100px;
+  width: 350px;
+  font-size: 24px;
+
+}
+.logintd button{
+
+  background-color: #6fa7e8;
+}
+
+.formTd{
+  height: 100px;
+  width: 450px;
+  color: gray;
+  padding-left:70px;
+}
+.formtd{
+  height: 50px;
+  width: 450px;
+  color: gray;
+  padding-left: 70px;
+}
+.formInput{
+  height: 40px;
+  width: 300px;
+}
+
+.title{
+  height: 60px;
+  width: 350px;
+  text-align: center;
+  margin-top: 120px;
+  padding-top: 12px;
+  font-size: 30px;
+  color: white;
+}
+
+.content{
+  height: 100px;
+  width: 350px;
+  margin-top:20px;
+  padding-top: 12px; 
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+.copyRight{
+  width: 100%;
+  text-align:center;
+  height:30px;
+  position:fixed;
+  bottom:0;
+  text-align:center;
+  line-height:30px;
+}

@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f869560-d43a-4d64-98a1-03e6ff4c9e8e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/app/Http/Controllers/StaffPositionController.php" afterPath="$PROJECT_DIR$/code/app/Http/Controllers/StaffPositionController.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CalculateController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/app/Http/Controllers/CalculateController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="324" column="27" lean-forward="false" selection-start-line="324" selection-start-column="27" selection-end-line="324" selection-end-column="27" />
+              <folding>
+                <marker date="1504927001853" expanded="true" signature="10490:19209" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="11143:19203" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="11771:19193" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="15092:19162" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="15360:15551" ph="{...}" />
+                <marker date="1504927001853" expanded="true" signature="16891:17634" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="17104:17281" ph="{...}" />
+                <marker date="1504927001853" expanded="true" signature="17464:17608" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="19219:19257" ph=" 计算端口费---未绑定员工算入工资的店铺自己承担 ..." />
+                <marker date="1504927001853" expanded="true" signature="19324:20321" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="19427:19480" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="19486:19535" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="19581:20315" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="19800:20305" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="20335:20366" ph=" 计算端口费---绑定员工算入工资的 ..." />
+                <marker date="1504927001853" expanded="true" signature="20474:23023" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="20885:20910" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="20919:20930" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="20937:20943" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="20976:21007" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="21082:21520" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="21141:21177" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="21252:21338" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="21424:21510" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="21714:21793" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="21824:22433" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="22464:23017" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="23034:23246" ph=" [cCalculateStore description] ..." />
+                <marker date="1504927001853" expanded="true" signature="23314:27541" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="23723:27535" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="23956:25242" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="24030:25228" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="24126:25209" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="24168:24288" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="24330:24670" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="24712:25050" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="25091:25180" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="25518:26070" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="25606:26056" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="25636:25777" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="25807:25945" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="25974:26039" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="27580:28387" ph="{...}" />
+                <marker date="1504927001853" expanded="true" signature="27879:27904" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="28395:28534" ph=" [cSalaryAvg 录入分店分摊总店员工工资费用] ..." />
+                <marker date="1504927001853" expanded="true" signature="28599:29416" ph="{...}" />
+                <marker date="1504927001853" expanded="true" signature="28966:29409" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="29425:29565" ph=" [cSalaryAvg 录入该区域分店分摊区域工资费用] ..." />
+                <marker date="1504927001853" expanded="true" signature="29632:30671" ph="{...}" />
+                <marker date="1504927001853" expanded="true" signature="29831:30664" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="29989:30654" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="30119:30640" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="30681:30880" ph=" [cUpdateCodeLog 更新update_code记录] ..." />
+                <marker date="1504927001853" expanded="true" signature="30965:32018" ph="{...}" />
+                <marker date="1504927001853" expanded="true" signature="31048:31061" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="31070:31085" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="31094:31106" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="31150:31672" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="31237:31252" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="31261:31273" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="31283:31337" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="31284:31336" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="31387:31661" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="31388:31660" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="31678:32011" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="31726:32000" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="31727:31999" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="32027:32374" ph=" [cInsertCostDetail 过户录入cost_deatails（改为均分下去）] ..." />
+                <marker date="1504927001853" expanded="true" signature="32446:33366" ph="{...}" />
+                <marker date="1504927001853" expanded="true" signature="32518:32533" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="32542:32555" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="32564:32579" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="32586:32594" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="32657:33359" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="32878:33349" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="33507:34630" ph="{...}" />
+                <marker date="1504927001853" expanded="true" signature="33706:34482" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="34771:35741" ph="{...}" />
+                <marker date="1504927001853" expanded="true" signature="34967:35734" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="35886:37191" ph="{...}" />
+                <marker date="1504927001853" expanded="true" signature="36020:37174" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="36200:37164" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="37328:38630" ph="{...}" />
+                <marker date="1504927001853" expanded="true" signature="37469:38623" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="37649:38613" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="38788:40267" ph="{...}" />
+                <marker date="1504927001853" expanded="true" signature="39080:40260" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="39416:40250" ph="..." />
+                <marker date="1504927001853" expanded="true" signature="40276:40294" ph=" 计算月份 ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commission_details.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/resources/views/details/commission_details.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4752">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1504926079939" expanded="true" signature="10:23" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="35:44" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="1180:1197" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="1203:1220" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="1407:1418" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="1424:1435" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="2113:2133" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="2148:2167" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="2286:2306" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="2313:2333" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="2771:2776" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="2782:2787" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="2977:2988" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="2994:3005" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="4229:4234" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="4240:4245" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="4435:4446" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="4452:4463" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="4777:4783" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="4789:4795" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="4978:4980" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="4986:4988" ph="..." />
+                <marker date="1504926079939" expanded="true" signature="16019:16022" ph="//..." />
+                <marker date="1504926079939" expanded="true" signature="16019:16041" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaffPositionController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/app/Http/Controllers/StaffPositionController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-720">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1504927254231" expanded="true" signature="196:12863" ph="{...}" />
+                <marker date="1504927254231" expanded="true" signature="7403:9719" ph="{...}" />
+                <marker date="1504927254231" expanded="true" signature="7525:9325" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="7624:7654" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="7680:7716" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="7741:7760" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="7891:7921" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="7947:7983" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="8008:8027" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="8088:8620" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="8283:8431" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="8284:8430" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="8464:8606" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="8626:9302" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="8685:9222" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="8867:9015" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="8868:9014" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="9050:9204" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="9228:9288" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="9333:9712" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="9499:9623" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="9500:9622" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="9652:9702" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="9729:9802" ph=" [cPositionLevel 修改薪水规则] ..." />
+                <marker date="1504927254231" expanded="true" signature="9841:9963" ph="{...}" />
+                <marker date="1504927254231" expanded="true" signature="9972:10047" ph=" [cPositionLevel 修改薪水规则提交] ..." />
+                <marker date="1504927254231" expanded="true" signature="10089:10386" ph="{...}" />
+                <marker date="1504927254231" expanded="true" signature="10130:10341" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="10207:10217" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="10227:10330" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="10228:10329" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="10394:10643" ph=" [cPositionAdjustmentLog 记录职位修改] ..." />
+                <marker date="1504927254231" expanded="true" signature="10722:12176" ph="{...}" />
+                <marker date="1504927254231" expanded="true" signature="11209:11224" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="11233:11246" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="11255:11286" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="11323:11686" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="11381:11675" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="11382:11674" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="11692:12168" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="11751:12157" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="11752:12156" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="12185:12360" ph=" [cSetParentStore 设置子店铺] ..." />
+                <marker date="1504927254231" expanded="true" signature="12435:12859" ph="{...}" />
+                <marker date="1504927254231" expanded="true" signature="12490:12519" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="12571:12600" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="12608:12852" ph="..." />
+                <marker date="1504927254231" expanded="true" signature="12805:12842" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BonusDetailsController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/app/Http/Controllers/BonusDetailsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1152">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/code/app/Http/Controllers/CalculateController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="x.cn" id="30be0156-cc2a-420c-9c09-9bdbadb416af" name="fc" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financial_management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financial_management" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financial_management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financial_management" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financial_management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financial_management" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financial_management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financial_management" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financial_management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="financial_management" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zerg" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHP Web Application.fc">
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="fc" start_url="/login">
+      <method />
+    </configuration>
+    <configuration default="false" name="fc" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="fc" start_url="/login">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.fc" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f869560-d43a-4d64-98a1-03e6ff4c9e8e" name="Default" comment="" />
+      <created>1504922429221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504922429221</updated>
+      <workItem from="1504922431001" duration="1730000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1730000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25917926" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5157526" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61376894" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/code/app/Http/Controllers/CalculateController.php</url>
+          <line>325</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/code/app/Http/Controllers/CalculateController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="324" column="27" lean-forward="false" selection-start-line="324" selection-start-column="27" selection-end-line="324" selection-end-column="27" />
+          <folding>
+            <marker date="1504927001853" expanded="true" signature="10490:19209" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="11143:19203" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="11771:19193" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="15092:19162" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="15360:15551" ph="{...}" />
+            <marker date="1504927001853" expanded="true" signature="16891:17634" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="17104:17281" ph="{...}" />
+            <marker date="1504927001853" expanded="true" signature="17464:17608" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="19219:19257" ph=" 计算端口费---未绑定员工算入工资的店铺自己承担 ..." />
+            <marker date="1504927001853" expanded="true" signature="19324:20321" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="19427:19480" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="19486:19535" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="19581:20315" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="19800:20305" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="20335:20366" ph=" 计算端口费---绑定员工算入工资的 ..." />
+            <marker date="1504927001853" expanded="true" signature="20474:23023" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="20885:20910" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="20919:20930" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="20937:20943" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="20976:21007" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="21082:21520" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="21141:21177" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="21252:21338" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="21424:21510" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="21714:21793" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="21824:22433" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="22464:23017" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="23034:23246" ph=" [cCalculateStore description] ..." />
+            <marker date="1504927001853" expanded="true" signature="23314:27541" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="23723:27535" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="23956:25242" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="24030:25228" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="24126:25209" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="24168:24288" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="24330:24670" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="24712:25050" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="25091:25180" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="25518:26070" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="25606:26056" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="25636:25777" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="25807:25945" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="25974:26039" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="27580:28387" ph="{...}" />
+            <marker date="1504927001853" expanded="true" signature="27879:27904" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="28395:28534" ph=" [cSalaryAvg 录入分店分摊总店员工工资费用] ..." />
+            <marker date="1504927001853" expanded="true" signature="28599:29416" ph="{...}" />
+            <marker date="1504927001853" expanded="true" signature="28966:29409" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="29425:29565" ph=" [cSalaryAvg 录入该区域分店分摊区域工资费用] ..." />
+            <marker date="1504927001853" expanded="true" signature="29632:30671" ph="{...}" />
+            <marker date="1504927001853" expanded="true" signature="29831:30664" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="29989:30654" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="30119:30640" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="30681:30880" ph=" [cUpdateCodeLog 更新update_code记录] ..." />
+            <marker date="1504927001853" expanded="true" signature="30965:32018" ph="{...}" />
+            <marker date="1504927001853" expanded="true" signature="31048:31061" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="31070:31085" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="31094:31106" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="31150:31672" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="31237:31252" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="31261:31273" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="31283:31337" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="31284:31336" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="31387:31661" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="31388:31660" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="31678:32011" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="31726:32000" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="31727:31999" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="32027:32374" ph=" [cInsertCostDetail 过户录入cost_deatails（改为均分下去）] ..." />
+            <marker date="1504927001853" expanded="true" signature="32446:33366" ph="{...}" />
+            <marker date="1504927001853" expanded="true" signature="32518:32533" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="32542:32555" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="32564:32579" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="32586:32594" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="32657:33359" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="32878:33349" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="33507:34630" ph="{...}" />
+            <marker date="1504927001853" expanded="true" signature="33706:34482" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="34771:35741" ph="{...}" />
+            <marker date="1504927001853" expanded="true" signature="34967:35734" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="35886:37191" ph="{...}" />
+            <marker date="1504927001853" expanded="true" signature="36020:37174" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="36200:37164" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="37328:38630" ph="{...}" />
+            <marker date="1504927001853" expanded="true" signature="37469:38623" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="37649:38613" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="38788:40267" ph="{...}" />
+            <marker date="1504927001853" expanded="true" signature="39080:40260" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="39416:40250" ph="..." />
+            <marker date="1504927001853" expanded="true" signature="40276:40294" ph=" 计算月份 ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/resources/views/details/commission_details.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4752">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1504926079939" expanded="true" signature="10:23" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="35:44" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="1180:1197" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="1203:1220" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="1407:1418" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="1424:1435" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="2113:2133" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="2148:2167" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="2286:2306" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="2313:2333" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="2771:2776" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="2782:2787" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="2977:2988" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="2994:3005" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="4229:4234" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="4240:4245" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="4435:4446" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="4452:4463" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="4777:4783" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="4789:4795" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="4978:4980" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="4986:4988" ph="..." />
+            <marker date="1504926079939" expanded="true" signature="16019:16022" ph="//..." />
+            <marker date="1504926079939" expanded="true" signature="16019:16041" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/app/Http/Controllers/StaffPositionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1504927254231" expanded="true" signature="196:12863" ph="{...}" />
+            <marker date="1504927254231" expanded="true" signature="7403:9719" ph="{...}" />
+            <marker date="1504927254231" expanded="true" signature="7525:9325" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="7624:7654" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="7680:7716" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="7741:7760" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="7891:7921" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="7947:7983" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="8008:8027" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="8088:8620" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="8283:8431" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="8284:8430" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="8464:8606" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="8626:9302" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="8685:9222" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="8867:9015" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="8868:9014" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="9050:9204" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="9228:9288" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="9333:9712" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="9499:9623" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="9500:9622" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="9652:9702" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="9729:9802" ph=" [cPositionLevel 修改薪水规则] ..." />
+            <marker date="1504927254231" expanded="true" signature="9841:9963" ph="{...}" />
+            <marker date="1504927254231" expanded="true" signature="9972:10047" ph=" [cPositionLevel 修改薪水规则提交] ..." />
+            <marker date="1504927254231" expanded="true" signature="10089:10386" ph="{...}" />
+            <marker date="1504927254231" expanded="true" signature="10130:10341" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="10207:10217" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="10227:10330" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="10228:10329" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="10394:10643" ph=" [cPositionAdjustmentLog 记录职位修改] ..." />
+            <marker date="1504927254231" expanded="true" signature="10722:12176" ph="{...}" />
+            <marker date="1504927254231" expanded="true" signature="11209:11224" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="11233:11246" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="11255:11286" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="11323:11686" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="11381:11675" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="11382:11674" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="11692:12168" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="11751:12157" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="11752:12156" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="12185:12360" ph=" [cSetParentStore 设置子店铺] ..." />
+            <marker date="1504927254231" expanded="true" signature="12435:12859" ph="{...}" />
+            <marker date="1504927254231" expanded="true" signature="12490:12519" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="12571:12600" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="12608:12852" ph="..." />
+            <marker date="1504927254231" expanded="true" signature="12805:12842" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/app/Http/Controllers/BonusDetailsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1152">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

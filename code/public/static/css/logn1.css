@@ -1,0 +1,42 @@
+.mydiv {
+    width: 800px;
+    height: 400px;
+    border: #909090 0px solid;
+    background: gray;
+    color: #333;
+    filter: progid: DXImageTransform.Microsoft.Shadow(color=#909090, direction=120, strength=3);
+    /*ie*/
+    -webkit-box-shadow: 2px 2px 20px #909090;
+    /*safari或chrome*/
+   background-color:gray;
+   margin: 0 auto;
+   margin-top: 120px;
+}
+
+
+.div1
+{
+  height: 400px;
+  width: 600px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 150px;
+      opacity: 0.3;
+ }
+ .div2
+{
+  height: 400px;
+  width: 600px;
+  background-color:white;
+  margin: 0 auto;
+  margin-top: -410px;
+  margin-left: 373px;
+           opacity: 0.7;
+ }
+
+ .nav_top
+ {
+  height: 90px;
+  width: 600px;
+
+ }
