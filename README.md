@@ -1,7 +1,7 @@
-#项目交接说明
+#README
 
-总公司默认三个员工
-财务为code：hj001T2。端口减去工资reducer用到
+### 项目说明
+该项目帮助需求方财务结算。结算该公司旗下每个店的收益，成本情况，员工工资发放情况，扣除情况。扣除工资通过员工上传.xls导入数据库去匹配。最后将每个月的成本明细，员工工资明细，签单明细，过户明细等以表格，可视化的形式供给高层领导分析，制定计划。
 ### 项目部署
 1. git clone 到本地
 2. cd /financial_management/code
@@ -14,6 +14,33 @@
 9. cd ../db 找到最新的数据库导入本地数据库
 10. php artisan serve 调试
 
+### 项目截图
+* 登录界面			
+![](docs/img/0.png)
+* 首页			
+![](docs/img/1.png)
+![](docs/img/3.png)
+* 公司组织结构	
+![](docs/img/4.png)
+![](docs/img/5.png)
+* 签单管理		
+![](docs/img/6.png)
+* 规则设置			
+![](docs/img/7.png)
+* 职位管理		
+![](docs/img/8.png)
+* 店铺管理			
+![](docs/img/12.png)
+* 工资发放记录		
+![](docs/img/9.png)
+* 店铺管理，区域管理等		
+![](docs/img/10.png)
+![](docs/img/11.png)
+* 财务核算			
+![](docs/img/2.png)
+
+### 项目核心
+该项目核心在核算的时间点选择，这边我设计数据库将一个update_code作为时间点计算，将相应需要成本计算的数据提取出来，然后遍历求得每家分店，和总公司的盈利亏损情况
 ### 代码目录结构
 
 #### 后台
@@ -180,15 +207,16 @@
 #### 自动职位调整
 我是用linux自带的crontab来实现。
 
+* crontab -e 编辑定时任务
+* crontab -l 查看定时任务
+* /etc/init.d/cron/crontab {start|status|restart|stop} 相应服务操作
+/crontab/locqj/159753
+
 ### 导入数据
 目前在SalaryReduce中用到，可直接调用
 模版下载放在public/download目录中
 
 
-* crontab -e 编辑定时任务
-* crontab -l 查看定时任务
-* /etc/init.d/cron/crontab {start|status|restart|stop} 相应服务操作
-/crontab/locqj/159753
 ### 计算方面
 大前提就是，将收入按照月为单位去结算，先生成统一的update_code,然后获取每个月最新打update_code(主要是用作数据匹配的作用)，去计算店铺打成本，员工的工资利润等。按季度结算实际就是将按月结算循环执行三遍。
 ### 其他
@@ -201,5 +229,16 @@
 * public目录下backupMysql下backup_mysql.sh 是备份数据库的脚本，可根据服务器环境mysql以及项目目录所在的位置调整
 * db中有数据库重大更新的各个版本，以最后一个版本为准，最好取带init关键字的
 * public下upload和static/file需要写权限
+* 总公司默认三个员工
+财务为code：hj001T2。端口减去工资reducer用到权限
 
+	
+
+	tic/file需要写权限
+* 总公司默认三个员工
+财务为code：hj001T2。端口减去工资reducer用到权限
+
+	
+
+	
 	

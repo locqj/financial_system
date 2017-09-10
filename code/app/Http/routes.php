@@ -328,12 +328,11 @@ Route::group(['middleware' => 'web'], function () {
             Route::get('/reducesalary/getdetails/{employee_code}-{year}-{month}', 'SalaryReduceController@cGetDetails'); //获取详情
             Route::post('/reducesalary/import', 'SalaryReduceController@cImport');  //导入excel
             Route::get('/reducesalary/download',function(){
-                // return response()->download(public_path().'/download/salary_reduce_model.xls', '衡居扣除工资明细模版.xls');
                 $filename=realpath(public_path().'/download/salary_reduce_model.xls'); //文件名
                 Header( "Content-type:  application/octet-stream "); 
                 Header( "Accept-Ranges:  bytes "); 
                 Header( "Accept-Length: " .filesize($filename));
-                header( "Content-Disposition:  attachment;  filename= 衡居扣除工资明细模版.xls"); 
+                header( "Content-Disposition:  attachment;  filename= 扣除工资明细模版.xls"); 
                 echo file_get_contents($filename);
                 readfile($filename); 
             });

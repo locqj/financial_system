@@ -59,7 +59,7 @@
 	    </div>
 	    <div class="div_right">
 		    <div class="title">
-		     	衡居房产记账结账系统
+		     	xxx房产记账结账系统
 		    </div> 
 		    <div class="content">
 		     	我们提供不止于服务,更专注于客户体验
