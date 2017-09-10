@@ -16,28 +16,28 @@
 
 ### 项目截图
 * 登录界面			
-![](docs/img/0.PNG)
+![](img/0.PNG)
 * 首页			
-![](docs/img/1.png)
-![](docs/img/3.png)
+![](img/1.png)
+![](img/3.png)
 * 公司组织结构	
-![](docs/img/4.png)
-![](docs/img/5.png)
+![](img/4.png)
+![](img/5.png)
 * 签单管理		
-![](docs/img/6.png)
+![](img/6.png)
 * 规则设置			
-![](docs/img/7.png)
+![](img/7.png)
 * 职位管理		
-![](docs/img/8.png)
+![](img/8.png)
 * 店铺管理			
-![](docs/img/12.png)
+![](img/12.png)
 * 工资发放记录		
-![](docs/img/9.png)
+![](img/9.png)
 * 店铺管理，区域管理等		
-![](docs/img/10.png)
-![](docs/img/11.png)
+![](img/10.png)
+![](img/11.png)
 * 财务核算			
-![](docs/img/2.png)
+![](img/2.png)
 
 ### 项目核心
 该项目核心在核算的时间点选择，这边我设计数据库将一个update_code作为时间点计算，将相应需要成本计算的数据提取出来，然后遍历求得每家分店，和总公司的盈利亏损情况
@@ -237,6 +237,11 @@
 	tic/file需要写权限
 * 总公司默认三个员工
 财务为code：hj001T2。端口减去工资reducer用到权限
+
+	
+
+	
+	为code：hj001T2。端口减去工资reducer用到权限
 
 	
 
